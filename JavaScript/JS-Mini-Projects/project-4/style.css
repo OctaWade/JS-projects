@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+
+  background: url(images/project-4.jpg) no-repeat center center/ cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff;
+  height: 280px;
+  width: 480px;
+  box-shadow: 0 0 10px;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 40px;
+  font-weight: 300;
+
+  margin-bottom: 60px;
+}
+
+.start-btn {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  margin-left: 10px;
+
+  cursor: pointer;
+}
+
+.reset-btn {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+
+  cursor: pointer;
+}

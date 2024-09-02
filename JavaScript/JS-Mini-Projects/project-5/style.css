@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url(images/project-5.jpg) no-repeat center center/ cover;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 250px;
+}
+
+.add-feature {
+  display: flex;
+  gap: 10px;
+
+  background-color: #fff;
+  width: 400px;
+  height: 60px;
+  padding: 15px 10px;
+  border-radius: 15px;
+
+  box-shadow: 0 0 5px #00000082;
+}
+
+.enter-text {
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+input {
+  padding: 5px;
+}
+
+.add-btn {
+  cursor: pointer;
+  color: green;
+  background-color: #fff;
+  border: 1px solid green;
+  border-radius: 6px;
+  width: 80px;
+}
+
+.add-btn:hover,
+.add-btn:active {
+  background-color: green;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.add-icon {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.need-cart {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.need-cart-design {
+  display: none;
+}
+
+.cart-container {
+  overflow: scroll;
+  margin-bottom: 70px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.checkmark-btn {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid orange;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: orange;
+}
+
+.checkmark-btn:hover,
+.checkmark-btn:active {
+  background-color: orange;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.trash-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 6px;
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 8px;
+  color: red;
+}
+
+.trash-btn:hover,
+.trash-btn:active {
+  background-color: red;
+  color: #fff;
+  transition: all 0.3s;
+}
